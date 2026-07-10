@@ -36,7 +36,7 @@ plt.ylabel("Number of Crimes")
 # Save outputs
 df.to_csv("Data/crime_data.csv", index=False)
 
-plt.savefig("Outputs/top_crime_categories.png")
+plt.savefig("outputs/top_crime_categories.png")
 
 
 # Display chart
@@ -56,8 +56,9 @@ plt.title("Top 10 Crime Locations")
 plt.xlabel("Location")
 plt.ylabel("Number of Crimes")
 
-plt.savefig("Outputs/top_crime_locations.png")
+plt.savefig("outputs/top_crime_locations.png")
 
 plt.show()
 
 print(df["month"].value_counts())
+

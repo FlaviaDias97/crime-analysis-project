@@ -36,3 +36,13 @@ The project analysed:
 - The analysis uses reported crime data, which may not represent all incidents.
 - The dataset represents the selected Leeds area and timeframe only.
 - Further analysis could compare different locations and longer time periods.
+
+## Visualisations
+
+### Top Crime Categories
+
+![Top Crime Categories](outputs/top_crime_categories.png)
+
+### Top Crime Locations
+
+![Top Crime Locations](outputs/top_crime_locations.png)
